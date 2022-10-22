@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+body {
+    font-family: "Caveat", cursive;
+    color: #4d5161;
+    background-color: forestgreen;
+}
+.header__container{
+    z-index: 1000;
+    position: relative;
+    font-size: 36px;
+    position: sticky;
+    top:10px;
+}
+.car{
+    transform: translate(-40px, 2px);
+}
+.car__top{
+    background-color: rgb(100, 36, 90);
+    width: 300px;
+    height: 150px;
+    border-radius:50% 50% 50% 50% / 100% 100% 0% 0% ;
+    position: fixed;
+    left: 200px;
+    top: 300px;
+}
+.car__right{
+    background-color: rgb(100, 36, 90);
+    width: 200px;
+    height: 120px;
+    border-radius:0px  100px 10px 0px;
+    position: fixed;
+    left: 350px;
+    top: 400px;
+}
+.car__left{
+    background-color: rgb(100, 36, 90);
+    width: 250px;
+    height: 120px;
+    border-radius: 2500px 0px 20px 0px;
+    position: fixed;
+    left: 130px;
+    top: 400px;
+    z-index: 1;
+}
+.car__bottom{
+    background-color: rgb(100, 36, 90);
+    width: 450px;
+    height: 50px;
+    border-radius: 50px;
+    position: fixed;
+    left: 117px;
+    top: 473px;
+    z-index: 1;
+}
+.car__wheel {
+    background-color: black;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    border:#4d5161 25px solid;
+    position: fixed;
+    z-index: 10;
+}
+.car__wheel--right{
+    left: 200px;
+    top: 450px;
+}
+.car__wheel--left{
+    left: 400px;
+    top: 450px;
+}
+.car__window{
+    background-color: rgba(179, 166, 192, 0.499);
+    width: 100px;
+    height: 90px;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+    position: fixed;
+    z-index: 3;
+    border:#4d5161 5px solid;
+}
+.car__window--left{
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0% ;
+    left: 360px;
+    top: 330px;
+}
+.car__window--right{
+    border-radius: 100% 0% 0% 100% / 100% 100% 0% 0% ;
+    left: 240px;
+    top: 330px;
+}
+.car__headlamp-yellow{
+    background-color: rgb(240, 230, 41);
+    width: 30px;
+    height: 40px; 
+    border-radius: 73% 27% 21% 79% / 71% 37% 63% 29% ;
+    position: fixed;
+    left: 135px;
+    top: 440px;
+    
+    z-index: 3; 
+}
+.car__headlamp-yellow:hover{
+    box-shadow: -10px 5px 25px #e9f012;
+}
+.car__headlamp-red{
+    background-color: rgb(193, 16, 16);
+    width: 30px;
+    height: 30px;
+    border-radius: 21% 79% 21% 79% / 33% 71% 29% 67% ;
+    position: fixed;
+    left: 520px;
+    top: 450px;
+    border:#4d5161 1px solid;
+    z-index: -1; 
+}
+.car__latch{
+    background-color: rgba(79, 64, 77, 0.489);
+    width: 40px;
+    height: 20px;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50% ;
+    position: fixed;
+    border:#4d5161 1px solid;
+    z-index: 5; 
+}
+.car__latch--left{
+    left: 290px;
+    top: 440px;
+}
+.car__latch--right{
+    left: 370px;
+    top: 440px;
+}
+.carex__haust-pipe{
+    background-color: #4d5161;
+    width: 100px;
+    height: 20px;
+    position: fixed;
+    left: 480px;
+    top: 490px;
+    border-radius: 10px;
+    z-index: 0;
+}
+.smoke__circle{
+    background-color: rgb(159, 159, 159);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10;
+}
+.smoke__circle--1{
+    width: 70px;
+    height: 70px;
+    left: 620px;
+    top: 440px;
+}
+.smoke__circle--2{
+    width: 50px;
+    height: 50px;
+    left: 660px;
+    top: 450px;
+}
+.smoke__circle--3{
+    width: 30px;
+    height: 30px;
+    left: 590px;
+    top: 485px;
+}
+.smoke__circle--4{
+    width: 50px;
+    height: 50px;
+    left: 600px;
+    top: 460px;
+}
+.sky{
+    background-color: lightskyblue;
+    border-radius:0% 100% 0% 100% / 94% 0% 100% 6% ;
+    width: 100%;
+    height: 300px;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+.sun{
+    background-color: #e9f012;
+    box-shadow: 0px 0px 70px #e9f012;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: fixed;
+    left: 50%;
+    top: 50px;
+    z-index: 100;
+}
+.cloud__white{
+    background-color: aliceblue;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 10;    
+    box-shadow: 0px 0px 50px aliceblue;
+}
+.cloud__white--left1{
+    width: 100px;
+    height: 100px;
+    left: 30%;
+    top: 100px;
+}
+.cloud__white--left2{
+    width: 70px;
+    height: 70px;
+    left: 27%;
+    top: 130px;
+}
+.cloud__white--left3{
+    width: 80px;
+    height: 80px;
+    left: 34%;
+    top: 120px;
+}
+.cloud__white--right1{
+    width: 120px;
+    height: 120px;
+    left: 70%;
+    top: 90px;
+}
+.cloud__white--right2{
+    width: 100px;
+    height: 100px;
+    left: 75%;
+    top: 110px;
+}
+.cloud__white--right3{
+    width: 90px;
+    height: 90px;
+    left: 67%;
+    top: 120px;
+}
+.row{
+    background-color:slategrey;
+    width: 100%;
+    height: 90px;
+    z-index: -5;
+    position: relative;
+    top: 470px;
+    border-top:  3px black solid;
+    border-bottom: 3px black solid;
+}
+.footer__container{
+    z-index: 1000;
+    position: absolute;
+    font-size: 24px;
+    top:100%;
+    left:70%;
+}
